@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+    <button onclick="myFunction()">Regresar</button>
+
+    <h2 style = "text-align: center">Consulta de libros</h2>
+
+    <form action = "/ view" method = "POST">
+        <fieldset>
+            <h3> Buscar un libro </h3>
+            <label> Nombre del libro </label>
+            <input type = "text"  name = "name" size ="7" obligatorio>
+            <br> <br>
+            <input type = "submit" value = "Consulta"> Restablecer </input>
+            <br> <br> <br>
+        </fieldset>
+    </form>
+
+
+    <script>
+        function myFunction() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
