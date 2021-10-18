@@ -1,0 +1,33 @@
+
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<button onclick="myFunction()">Regresar</button>
+
+<h2 style = "text-align: center">Historial de compras</h2>
+
+<form action = "/ delete" method = "POST">
+    <fieldset>
+        <h3> Eliminar un empleado </h3>
+        <label> Nombre del libro </label>
+        <input type = "text" id = 'empID' name = "id" obligatorio>
+        <br> <br>
+        <button type = "reset"> Restablecer </button>
+        <button type = "submit"> Enviar </button>
+        <br> <br> <br>
+    </fieldset>
+</form>
+<footer>
+    <hr>
+    <h4> Caso de estudio #1 Tienda de libros</h4>
+</footer>
+
+<script>
+    function myFunction() {
+        window.history.back();
+    }
+</script>
+</body>
+</html>

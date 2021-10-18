@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+    <button onclick="myFunction()">Regresar</button>
+
+    <h2 style = "text-align: center">Nuevo libro</h2>
+
+    <div>
+        <form method="post" action="alta">
+            <fieldset>
+                Nombre:
+                <input type="text" id='idname' name="name" placeholder="El principito" required>
+                <br><br>
+                Editorial:
+                <input type="text"  id='ideditorial' name="editorial" placeholder="Santillana" required>
+                <br><br>
+                Categoria:
+                <input type="text"  id='idcateforia' name="cat" placeholder="Aventura" required>
+                <br><br>
+                Costo:
+                <input type="text"  id='idcosto' name="cost" placeholder="123.50" required>
+                <br><br>
+                Cantidad:
+                <input type="text"  id='idcantidad' name="cant" placeholder="8" required>
+                <br><br>
+
+                <button type = "reset">Restablecer</button>
+                <button type = "submit">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <hr>
+        <h4> Caso de estudio #1 Tienda de libros</h4>
+    </footer>
+
+
+    <script>
+        function myFunction() {
+            window.history.back();
+        }
+    </script>
+
+</body>
+</html>
